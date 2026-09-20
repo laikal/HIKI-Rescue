@@ -1,12 +1,14 @@
 # HIKI Rescue
 
-**HIKI Rescue**는 Eltax가 Hikimori Neko를 위해 제작한  
-Windows 복구 및 점검 보조 유틸리티입니다.
+**HIKI Rescue**는 Eltax가 처음 Hikimori Neko를 위해 제작한  
+**Windows 복구 및 점검 보조 유틸리티**입니다.
 
 Windows에 기본 포함된 복원, 시스템 검사, 디스크 검사, 메모리 진단 및 문제 해결 기능을  
-한 화면에서 간단하게 사용할 수 있도록 구성했습니다.
+한 화면에서 보다 간단하게 사용할 수 있도록 구성했습니다.
 
-![HIKI Rescue](IMG/IMG1.jpg)
+현재는 일반 사용자도 사용할 수 있도록 공개 배포되고 있습니다.
+
+![HIKI Rescue](IMG/img2.jpg)
 
 ## 주요 기능
 
@@ -37,11 +39,11 @@ Windows에 기본 포함된 복원, 시스템 검사, 디스크 검사, 메모�
 
 - **디스플레이 캐시 초기화**
   - Windows의 디스플레이 구성 캐시를 백업한 뒤 초기화합니다.
-  - 모니터 인식, 화면 배치, 해상도 및 다중 모니터 관련 문제가 발생했을 때 사용할 수 있습니다.
+  - 모니터 인식, 화면 배치, 해상도, 배율 및 다중 모니터 관련 문제가 발생했을 때 사용할 수 있습니다.
 
 - **DNS 캐시 초기화**
   - Windows DNS 캐시를 초기화합니다.
-  - DNS 관련 접속 문제가 발생했을 때 사용할 수 있습니다.
+  - DNS 관련 접속 문제를 해결할 때 사용할 수 있습니다.
 
 ### 관리 / 정보
 
@@ -66,9 +68,9 @@ Windows에 기본 포함된 복원, 시스템 검사, 디스크 검사, 메모�
 HIKI Rescue는 별도의 복구 엔진을 설치하는 프로그램이 아닙니다.
 
 가능한 범위에서 Windows에 기본 포함된 기능과 공식 Windows API를 이용하며,  
-불필요한 상주 서비스, 자동 실행, 원격 제어, 다운로드 기능 등을 사용하지 않습니다.
+불필요한 상주 서비스, 자동 실행, 원격 제어, 광고, 텔레메트리, 다운로드 기능 등을 사용하지 않습니다.
 
-프로그램은 기본적으로 오프라인에서 동작합니다.
+프로그램은 기본적으로 로컬 환경에서 동작합니다.
 
 ## 사용 전 주의사항
 
@@ -83,16 +85,23 @@ HIKI Rescue는 별도의 복구 엔진을 설치하는 프로그램이 아닙니
 
 최신 배포 버전은 GitHub의 **Releases**에서 받을 수 있습니다.
 
-HIKI Rescue는 현재 개인용으로 제작 및 관리되고 있습니다.
+- Repository: https://github.com/laikal/HIKI-Rescue/
+- Releases: https://github.com/laikal/HIKI-Rescue/releases
+
+## 지원 / 문의
+
+- Support Email: **eltax.support@gmail.com**
+- Issues: https://github.com/laikal/HIKI-Rescue/issues
+- Privacy Policy: https://github.com/laikal/HIKI-Rescue/blob/main/PRIVACY.md
 
 ## 프로그램 정보
 
 - **Program:** HIKI Rescue
-- **Version:** 1.00
+- **Version:** 1.00c
 - **Developer:** Eltax
-- **Target:** Hikimori Neko
+- **Originally created for:** Hikimori Neko
 - **Framework:** .NET Framework 4.8
 
 ---
 
-Copyright © Eltax
+Copyright © 2026 Eltax
